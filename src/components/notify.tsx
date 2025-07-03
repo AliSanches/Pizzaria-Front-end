@@ -1,5 +1,4 @@
 import { toast, type TypeOptions  } from 'react-toastify';
-import { Slide } from 'react-toastify/unstyled';
 
 export const notify = (message: string, type: TypeOptions): any => {
     return () => {

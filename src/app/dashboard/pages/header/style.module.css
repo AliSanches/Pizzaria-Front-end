@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+}
+
+.conter {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.conter a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    gap: 8px;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo h2 {
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+    color: rgb(253, 80, 57);
+}
+
+.navegation {
+    gap: 15px;
+    display: flex;
+}
+
+.navegation a {
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.navegation a:hover {
+    color: rgb(177, 47, 47);
+}
+
+.navegation button {
+    padding: 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease-in-out;
+    color: white;
+    background-color: rgb(253, 80, 57);
+}
+
+.navegation button:hover {
+    background-color: rgb(177, 47, 47);
+}

@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+}
+
+.conter {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.conter input {
+    width: 280px;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 8px;
+}

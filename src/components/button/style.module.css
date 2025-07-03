@@ -1,0 +1,27 @@
+.button {
+    width: 100%;
+    padding: 6px 10px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.bgGreen {
+    background-color: #3effa3;
+}
+
+.bgRed {
+    background-color: #fd5039;
+}
+
+.Green:hover {
+    background-color: #2bb673;
+}
+
+.Red:hover {
+    background-color: #fd5039;
+}
