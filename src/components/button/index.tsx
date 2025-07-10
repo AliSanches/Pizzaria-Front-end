@@ -25,6 +25,7 @@ export function Button({ name, bg, hover }: Props) {
                 .filter(Boolean) 
                 .join(' ')
         }
+        type="submit"
         disabled={pending}
         >
             { pending ? "Carregando" : name }

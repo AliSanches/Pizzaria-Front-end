@@ -60,3 +60,9 @@
 .navegation button:hover {
     background-color: rgb(177, 47, 47);
 }
+
+@media (max-width: 650px){
+    .logo {
+        display: block;
+    }
+}

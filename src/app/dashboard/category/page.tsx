@@ -27,7 +27,7 @@ export default function Category() {
             },
         })
 
-        redirect('/')
+        redirect('/dashboard')
     }
 
     return (

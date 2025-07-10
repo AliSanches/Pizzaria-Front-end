@@ -4,6 +4,7 @@ import style from "./style.module.css"
 import Link  from "next/link"
 import { deleteCookie } from "cookies-next/client"
 import { useRouter }    from "next/navigation";
+import notify from "@/components/notify";
 
 export function Header(){
     const router = useRouter();
@@ -11,6 +12,7 @@ export function Header(){
     const handleLogout = async () => {
         deleteCookie("user", { path: "/" });
 
+        notify("Desconectado", "warning")()
         router.replace("/");
     }
 
@@ -30,6 +32,9 @@ export function Header(){
                     </Link>
                     <Link href="/dashboard/product">
                         Produto
+                    </Link>
+                    <Link href="/dashboard/listProduct">
+                        Lista de produtos
                     </Link>
 
                     <form action={handleLogout}>

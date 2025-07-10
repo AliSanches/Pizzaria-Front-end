@@ -1,0 +1,21 @@
+.container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container button {
+    border: none;
+    padding: 8px 10px;
+    border-left: 5px solid #62ba94;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+}
+
+.container button:hover {
+    background-color: #62ba94;
+    font-weight: bold;
+}

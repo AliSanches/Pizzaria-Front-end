@@ -3,8 +3,7 @@
 import Link       from "next/link";
 import styles     from "../page.module.css";
 import { api }    from "@/services/api";
-import { notify } from "@/components/notify";
-import { ToastContainer } from 'react-toastify';
+import notify     from "@/components/notify";
 import { redirect } from "next/navigation";
 
 export default function Singup() {
@@ -67,7 +66,6 @@ export default function Singup() {
             </form>
             <p>Já possui conta? <Link href="/">Fazer login</Link></p>
             </div>
-            <ToastContainer />
       </div>
     )
 }

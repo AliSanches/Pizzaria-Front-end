@@ -1,6 +1,6 @@
 import { toast, type TypeOptions  } from 'react-toastify';
 
-export const notify = (message: string, type: TypeOptions): any => {
+export default function notify(message: string, type: TypeOptions): any {
     return () => {
         toast(`${message}`, {
             type: type as TypeOptions,
